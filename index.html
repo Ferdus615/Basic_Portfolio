@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+    <link rel="icon" type="jpg" href="/images/icon.svg" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="name">
+          <a href="#"
+            >Ferdus Rhaman Khan
+
+            <div class="email">
+              <img
+                src="images/email.png"
+                alt="email"
+                height="20px"
+                width="auto"
+              />
+              <p>ferdus@gmail.com</p>
+            </div>
+
+            <div class="phone">
+              <img src="images/phone-call.png" alt="phone" width="20px" />
+              <p>0123456789</p>
+            </div>
+          </a>
+        </div>
+        <div class="links">
+          <a href="#about">About Me</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#reco">Recommendations</a>
+        </div>
+      </nav>
+    </header>
+
+    <section id="about">
+      <div class="img">
+        <img src="images/Pic.jpg" alt="Profile" width="300px" />
+      </div>
+      <div class="text">
+        <h1>Hi, I'm Ferdus Rhaman Khan!</h1>
+        <p style="width: 600px">
+          "As a recent Computer Science & Engineering graduate from Southeast
+          University. I am driven to excel in both web development and embedded
+          systems design. Currently honing my frontend development skills with
+          the goal of becoming a proficient full-stack engineer, I possess a
+          solid foundation in embedded systems, artificial intelligence, and
+          machine learning. I am eager to contribute my skills and enthusiasm to
+          challenging and innovative projects."
+        </p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="title">
+        <h1>Skills</h1>
+      </div>
+
+      <div class="skill_box">
+        <div class="skill">
+          <img src="images/html.png" alt="HTML5" />
+          <h3>HTML5</h3>
+          <p>3 years of expirence</p>
+        </div>
+
+        <div class="skill">
+          <img src="images/css.png" alt="CSS3" />
+          <h3>CSS3</h3>
+          <p>3 years of expirence</p>
+        </div>
+
+        <div class="skill">
+          <img src="images/js.png" alt="JavaScript" />
+          <h3>JavaScript</h3>
+          <p>.5 years of expirence</p>
+        </div>
+
+        <div class="skill">
+          <img src="images/python.png" alt="Python" />
+          <h3>Python</h3>
+          <p>.5 years of expirence</p>
+        </div>
+
+        <div class="skill">
+          <img src="images/C_logo.png" alt="C" />
+          <h3>C</h3>
+          <p>3 years of expirence</p>
+        </div>
+
+        <div class="skill">
+          <img src="images/C++_logo.png" alt="C++" />
+          <h3>C++</h3>
+          <p>1 years of expirence</p>
+        </div>
+
+        <div class="skill">
+          <img src="images/React.webp" alt="React" />
+          <h3>React</h3>
+          <p>.5 years of expirence</p>
+        </div>
+
+        <div class="skill">
+          <img src="images/node.png" alt="node.js" />
+          <h3>node.js</h3>
+          <p>.5 years of expirence</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="title">
+        <h1>Projects</h1>
+      </div>
+
+      <ul>
+        <li>
+          <h3>CMS Blog Website</h3>
+          <p>
+            Developed a CRUD CMS blogging website with a database and a user
+            friendly UI where i can share my exprience and thoughts.
+          </p>
+        </li>
+        <li>
+          <h3>Music Player</h3>
+          <p>
+            Developed a Simple music player where you can add your music and
+            listen to any of them directly from the source.
+          </p>
+        </li>
+        <li>
+          <h3>TO DO List</h3>
+          <p>Developed a CRUD TO DO application with JavaScript.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="reco">
+      <div class="title">
+        <h1>Recommendations</h1>
+      </div>
+      <div class="reco-box">
+        <div class="reco-card">
+          <p class="quote">
+            “ Ferdus is an outstanding problem solver who tackles challenges
+            with creativity and efficiency. He is always ready to offer new
+            solutions and ensures the project stays on track. His leadership
+            skills make him a valuable asset to any team. ”
+          </p>
+        </div>
+        <div class="reco-card">
+          <p class="quote">
+            “ It was a pleasure working with Ferdus. He is highly organized,
+            detail-oriented, and always willing to go the extra mile to deliver
+            exceptional results. I would love to collaborate with him again in
+            the future. ”
+          </p>
+        </div>
+        <div class="reco-card">
+          <p class="quote">
+            “ I have known Ferdus for several years, and his technical expertise
+            and dedication to excellence never cease to impress me. He is a
+            dependable team player and a great mentor to those around him. ”
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="form">
+      <form action="">
+        <h2>Leave a Recommendation</h2>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Name (optional)"
+        />
+
+        <textarea
+          name="comment"
+          id="comment"
+          placeholder="Leave a message."
+          required
+        ></textarea>
+      </form>
+
+      <input type="submit" />
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
