@@ -82,7 +82,7 @@ nav a {
   padding-bottom: 20px;
 }
 .text p {
-  color: coral;
+  color: dimgray;
   text-align: justify;
   line-height: 1.3em;
   letter-spacing: 0.08em;
@@ -147,6 +147,8 @@ nav a {
 #projects p {
   padding: 7px;
   font-size: 1.1em;
+  background-color: rgb(255, 205, 145);
+  border-radius: 5px;
 }
 
 /* ===================================================================================================== */
