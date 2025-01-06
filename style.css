@@ -237,3 +237,8 @@ nav a {
 #form input[type="submit"]:hover {
   background-color: chocolate;
 }
+
+#home {
+  position: absolute;
+  right: 20px;
+}
